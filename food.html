@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhutanese Food</title>
+
+<style>
+body{
+  background-image: url('images/haha.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial;
+  text-align: center;
+  padding: 40px;
+}
+
+/* BACK BUTTON */
+.back{
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  padding: 10px 18px;
+  background: rgba(255, 0, 0, 0.6);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+/* TITLE */
+h1{
+  color: rgb(243, 146, 146);
+  margin-bottom: 30px;
+}
+
+/* GRID */
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* CARD */
+.card{
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* IMAGE + HOVER EFFECT */
+.card img{
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img{
+  transform: scale(1.08);
+}
+
+/* TEXT */
+.card h2{
+  color: #8B0000;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ONLY ONE BACK BUTTON -->
+<a href="index.html" class="back">⬅ Go Back</a>
+
+<h1>Bhutanese Food</h1>
+
+<div class="grid">
+
+  <div class="card">
+    <h2>Ema Datshi</h2>
+    <p>Bhutan’s national dish made with spicy chilies and cheese.</p>
+    <img src="images/1234567.jpg">
+  </div>
+
+  <div class="card">
+    <h2>Momos</h2>
+    <p>Dumplings filled with meat or vegetables.</p>
+    <img src="images/im.jpg">
+  </div>
+
+  <div class="card">
+    <h2>Red Rice</h2>
+    <p>Nutritious Bhutanese rice with soft nutty flavor.</p>
+    <img src="images/h.jpg">
+  </div>
+
+  <div class="card">
+    <h2>Phaksha Paa</h2>
+    <p>Pork cooked with chilies and radish.</p>
+    <img src="images/pag.jpg">
+  </div>
+
+  <div class="card">
+    <h2>Jasha Maru</h2>
+    <p>Spicy chicken stew with garlic and tomatoes.</p>
+    <img src="images/maru.jpg">
+  </div>
+
+  <div class="card">
+    <h2>Suja</h2>
+    <p>Traditional salty butter tea of Bhutan.</p>
+    <img src="images/su.jpg">
+  </div>
+
+  <div class="card">
+    <h2>Kewa Datshi</h2>
+    <p>Potatoes cooked with cheese and chilies.</p>
+    <img src="images/tt.webp">
+  </div>
+
+  <div class="card">
+    <h2>Puta</h2>
+    <p>Buckwheat noodles from Haa Valley.</p>
+    <img src="images/ll.jpg">
+  </div>
+
+</div>
+
+</body>
+</html>

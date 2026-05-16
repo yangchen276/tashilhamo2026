@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dzongs of Bhutan</title>
+
+<style>
+body{
+  margin:0;
+  font-family: Arial;
+  background: url('images/sky.jpg') center/cover fixed;
+  text-align:center;
+  padding:40px;
+}
+
+/* BACK BUTTON */
+.back{
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  padding: 10px 18px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+/* TITLE */
+h1{
+  color: white;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* GRID */
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* CARD */
+.card{
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.card:hover{
+  transform: translateY(-8px);
+}
+
+/* IMAGE */
+.card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.card:hover img{
+  transform: scale(1.08);
+}
+
+/* TEXT */
+.card h2{
+  color: #8B0000;
+  margin: 10px 0 5px;
+}
+
+.card p{
+  padding: 0 10px 15px;
+  color: #444;
+  font-size: 14px;
+  line-height: 1.4;
+}
+</style>
+</head>
+
+<body>
+
+<a href="index.html" class="back">⬅ Go Back</a>
+
+<h1>Famous Monasteries & Dzongs of Bhutan</h1>
+
+<div class="grid">
+
+  <!-- TIGER NEST -->
+  <div class="card">
+    <img src="images/paro.jpg" alt="Tiger’s Nest">
+    <h2>Tiger’s Nest Monastery</h2>
+    <p>
+      The most famous monastery in Bhutan, built on a cliff in Paro.
+      It is a sacred meditation site of Guru Rinpoche.
+    </p>
+  </div>
+
+  <!-- PUNAKHA -->
+  <div class="card">
+    <img src="images/punakha.jpg" alt="Punakha Dzong">
+    <h2>Punakha Dzong</h2>
+    <p>
+      One of the most beautiful dzongs in Bhutan, located between two rivers.
+      It is an important religious and historical site.
+    </p>
+  </div>
+
+  <!-- TASHICHO -->
+  <div class="card">
+    <img src="images/tashi.jpg" alt="Tashichho Dzong">
+    <h2>Tashichho Dzong</h2>
+    <p>
+      Located in Thimphu, it is the seat of Bhutan’s government and monastic body.
+    </p>
+  </div>
+
+  <!-- RINPUNG -->
+  <div class="card">
+    <img src="images/rin.jpg" alt="Rinpung Dzong">
+    <h2>Rinpung Dzong</h2>
+    <p>
+      A historic fortress-monastery in Paro known for its architecture and festivals.
+    </p>
+  </div>
+
+  <!-- SIMTOKHA -->
+  <div class="card">
+    <img src="images/sem.jpg" alt="Simtokha Dzong">
+    <h2>Simtokha Dzong</h2>
+    <p>
+      One of the oldest dzongs in Bhutan, known for its religious importance and carvings.
+    </p>
+  </div>
+
+  <!-- PARO DZONG AREA -->
+  <div class="card">
+    <img src="images/tad.jpg" alt="Ta Dzong">
+      <h2>Ta Dzong National Museum</h2>
+      <p>
+        Located in Paro, this museum was originally a watchtower built in 1649.
+        It contains ancient weapons, traditional clothing, religious artifacts,
+        and historical treasures of Bhutan.
+      </p>
+    </div>
+  <div class="card">
+    <img src="images/da.jpg" alt="Daga dzong">
+      <h2>Dagana Dzong</h2>
+      <p>
+         Located in southern Bhutan, Dagana Dzong is an important administrative
+         and religious center. Built in the 17th century, it features traditional
+         Bhutanese architecture with beautiful temples and whitewashed walls.
+      </p>
+    </div>
+  <div class="card">
+    <img src="images/jakar.jpg" alt="Jakar dzong">
+       <h2>Jakar Dzong</h2>
+      <p>
+      Located in Bumthang valley, Jakar Dzong is known as the “Castle of the White Bird.”
+      It is one of the largest dzongs in Bhutan and is famous for its peaceful surroundings
+      and traditional Bhutanese architecture.
+      </p>
+</div>
+
+</div>
+
+</body>
+</html>

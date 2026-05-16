@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Discover Bhutan</title>
+
+  <link rel="stylesheet" href="bhutan.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar">
+
+    <div class="logo">BHUTAN</div>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#explore">Explore Bhutan</a></li>
+      <li><a href="#booking">Booking</a></li>
+
+      <!-- ✅ FIXED LINK -->
+      <li><a href="aboutus.html">About Us</a></li>
+
+      <li><a href="#feedback">Feedback</a></li>
+    </ul>
+
+    <div class="chatbot-nav">
+      <input type="text" id="userInput" placeholder="Ask AI...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+    <h1>Discover The Beauty of Bhutan</h1>
+
+    <p>
+      Explore the Land of Happiness with beautiful mountains,
+      rich culture, amazing food and unforgettable experiences.
+    </p>
+
+    <button onclick="scrollSection('explore')">
+      Explore Now
+    </button>
+  </div>
+</section>
+
+<div class="chat-box" id="chatBox">
+  <div class="bot-message">Hello! Ask me anything about Bhutan tourism.</div>
+</div>
+
+<section class="explore" id="explore">
+  <h2>Explore Bhutan</h2>
+
+  <div class="cards">
+
+    <a href="food.html"><div class="card">
+      <img src="images/1.jpg">
+      <h3>Bhutanese Food</h3>
+      <p>Explore</p>
+    </div></a>
+
+    <a href="cloths.html"><div class="card">
+      <img src="images/123.jpg">
+      <h3>Traditional Clothes</h3>
+      <p>National dress of Bhutan</p>
+    </div></a>
+
+    <a href="culture.html"><div class="card">
+      <img src="images/12345.jpg">
+      <h3>Culture</h3>
+      <p>Festivals and traditions</p>
+    </div></a>
+
+    <a href="places.html"><div class="card">
+      <img src="images/123456.jpg">
+      <h3>Beautiful Places</h3>
+      <p>Places to explore</p>
+    </div></a>
+
+  </div>
+</section>
+
+<section class="booking" id="booking">
+  <h2>Booking</h2>
+
+  <div class="booking-container">
+
+    <div class="booking-box">
+      <h3>Flight Booking</h3>
+      <input type="text" placeholder="From">
+      <input type="text" placeholder="To">
+      <input type="date">
+      <button>Search Flights</button>
+    </div>
+
+    <div class="booking-box">
+      <h3>Hotel Booking</h3>
+      <input type="text" placeholder="Destination">
+      <input type="date">
+      <input type="date">
+      <button>Search Hotels</button>
+    </div>
+
+  </div>
+</section>
+
+<section class="feedback" id="feedback">
+  <h2>Feedback</h2>
+
+  <form id="feedbackForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Feedback" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Discover Bhutan</p>
+</footer>
+
+<script src="bhutan.js"></script>
+
+</body>
+</html>

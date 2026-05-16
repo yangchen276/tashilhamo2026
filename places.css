@@ -1,0 +1,12 @@
+p{
+    padding: 20px 50px 30px;
+    background-color: blueviolet;
+    margin: 20px 30px 50px 40px;
+    background-color: brown;
+}
+input,textarea{
+    width: 30px;
+    margin: 20px;
+    padding: 10%;
+    font-size: 20px;
+}
